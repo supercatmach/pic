@@ -29,6 +29,19 @@ $(".pledstanby").show();
 
 },1000)
 
+setTimeout(() => {
+
+$(".stanbylondingshap100").css("width","0px")
+
+$(".stanbylondingshap100").hide();
+
+$(".stanbylonding").hide();
+
+$(".pledstanby").show();
+
+},3000)
+
+
 
 $(".adown,.camera,.space,.etpghwordbk,.smoking,.scaler,.table").show(); // 揭示主畫面、DOM操作等
 });
@@ -37,11 +50,11 @@ document.oncontextmenu = function(){
     event.returnValue = false;
 }
 
-v41= new Audio("music\\v41.wav")
+v41= new Audio("https://cdn.jsdelivr.net/gh/supercatmach/pic@main/music/v41.wav")
 v41.preload = "auto"
 
 
-  const bgm = new Audio("music\\kawaii-dance-upbeat-japan-anime-edm-242104.mp3");
+  const bgm = new Audio("https://cdn.jsdelivr.net/gh/supercatmach/pic@main/music/kawaii-dance-upbeat-japan-anime-edm-242104.mp3");
   bgm.loop = true;
   bgm.volume = 0.3; // 初始音量
   bgm.play();
@@ -310,7 +323,7 @@ $(".londingshap100").animate({width:'100%'},1000);
 
 setTimeout(() => {
 
-window.location.href = `/magi.html?room=${rooms.roomId}&server=${encodeURIComponent(servertoURL)}`
+window.location.href = `/magi.html?room=${rooms.roomId}&server=${servertoURL}`
 
 },1000)
 
