@@ -2789,11 +2789,25 @@ $(".stanbylonding").hide();
 
 $(".pledstanby").show();
 
+$(".adown,.camera,.space,.etpghwordbk,.smoking,.scaler").show(); // 揭示主畫面、DOM操作等
+
 },1000)
 
-
-$(".adown,.camera,.space,.etpghwordbk,.smoking,.scaler").show(); // 揭示主畫面、DOM操作等
 });
+
+setTimeout(() => {
+
+$(".stanbylondingshap100").css("width","0px")
+
+$(".stanbylondingshap100").hide();
+
+$(".stanbylonding").hide();
+
+$(".pledstanby").show();
+
+},3000)
+
+
 
 inficon = document.querySelector(".inficon");
 
@@ -3117,7 +3131,7 @@ setInterval(() => {
 }, 1 * 60 * 1000);
 
 
-fetch(`${server}/imglist`)
+fetch(`${serverURL}/imglist`)
   .then(res => {
     const contentType = res.headers.get("content-type");
     if (!contentType || !contentType.includes("application/json")) {
