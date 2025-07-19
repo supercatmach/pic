@@ -3059,7 +3059,7 @@ $(".londingtincode100").css("width","0px")
 socket.off("roomFull");
         socket.on("roomFull", () => {
 
-            window.location.href = "/";
+            window.location.href = "/pic/index.html";
         });
 socket.off("allche");
 socket.on("allche", (cheinf) => {
@@ -3219,7 +3219,7 @@ backindex2 = document.querySelector(".backindex");
 
 backindex2.addEventListener("click",function () {
 
-window.location.href = "/"
+window.location.href = "/pic/index.html"
 
 return
 
@@ -4838,7 +4838,7 @@ if(lopal!=4){
 
 socket.emit("delroom",JSON.stringify([roomId]));
 
-window.location.href = "/";
+window.location.href = "/pic/index.html";
 
 }
 
@@ -5958,7 +5958,7 @@ setTimeout(() => {
 
 socket.emit("delroom",JSON.stringify([roomId]));
 
-window.location.href = "/";
+window.location.href = "/pic/index.html";
 
 }, 10000);
 

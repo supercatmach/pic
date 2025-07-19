@@ -6260,7 +6260,7 @@ backindex2 = document.querySelector(".backindex");
 
 backindex2.addEventListener("click",function () {
 
-window.location.href = "/"
+window.location.href = "/pic/index.html"
 
 return
 
