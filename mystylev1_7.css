@@ -1,17 +1,14 @@
 ﻿
 html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-      background-color: #000000;
-      user-select: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+    background-color: #000000;
+    user-select: none;
 }
+
 .muhandaury{
     position:absolute;
     transform-style:preserve-3d;
@@ -44,18 +41,18 @@ transform:translateX(250px) translateY(-430px) translateZ(-250px) rotateY(-88deg
         }
 
 .connect-box {
-  position: absolute;
   width: 400px;
   height: 400px;
   background-color: #ffffff;
+  position: absolute;   /* or fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  font-family: sans-serif;
-
 }
 
 .connect-spinner-container {
@@ -95,45 +92,51 @@ transform:translateX(250px) translateY(-430px) translateZ(-250px) rotateY(-88deg
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-    .spinner-wrapper {
-      position: relative;
-      width: 100px;
-      height: 100px;
-    }
+.spinner-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
 
-    .spinner {
-      width: 100px;
-      height: 100px;
-      border: 8px solid #eee;
-      border-top: 8px solid #3498db;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      box-sizing: border-box;
-    }
+.spinner {
+  width: 100px;
+  height: 100px;
+  border: 8px solid #eee;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  box-sizing: border-box;
+}
 
-    .spinner-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 22px;
-      font-family: monospace;
-      color: #fff; /* 黑色字 */
-      pointer-events: none;
-    }
+.spinner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  font-family: monospace;
+  color: #fff;
+  pointer-events: none;
+}
 
-    .spinner-message {
-      margin-top: 20px;
-      font-size: 16px;
-      color: #ffffff;
-      font-family: sans-serif;
-      text-align: center;
-    }
+.spinner-message {
+  position: absolute;
+  top: calc(50% + 80px); /* 放在圈圈下方 */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+}
 
-    @keyframes spin {
-      0%   { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .playerpic1 img,.playerpic2 img,.playerpic3 img,.playerpic4 img,.playerpic img,.winpler img{
   display: block;
   margin-left: auto;
