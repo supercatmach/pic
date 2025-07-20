@@ -258,11 +258,16 @@ function isValidBase64(str) {
 }
 ////////////////////////////////////////////
 const serverList = [
-  "https://mj-5x4w.onrender.com",
-  "https://mj-2-r1j0.onrender.com",
   "https://mj-sp1.up.railway.app",
-  "https://mj-sp2.up.railway.app"
+  "https://mj-sp2.up.railway.app",
+  "https://mj-sp3.up.railway.app",
+  "https://mj-sp4.up.railway.app",
+  "https://mj-sp5.up.railway.app",
+  "https://mj-sp6.up.railway.app"
 ];
+
+///  "https://mj-5x4w.onrender.com",
+///  "https://mj-2-r1j0.onrender.com",
 
 // 洗牌函式（Fisher–Yates Shuffle）
 function shuffleArray(arr) {
