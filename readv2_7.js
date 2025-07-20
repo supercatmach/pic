@@ -1,7 +1,7 @@
 ﻿$(".connect-box").hide()
 
   const bgImg = new Image();
-  bgImg.src = 'https://supercatmach.neocities.org/backg/endshure.jpg';
+  bgImg.src = 'https://cdn.jsdelivr.net/gh/supercatmach/pic@main/backg/endshure.jpg';
   
   bgImg.onload = () => {
 $(".stanbylonding").show();
@@ -686,57 +686,57 @@ $("."+pldname[1]+" div .e"+i+" .c1").html("")
 $("."+pldname[2]+" div .e"+i+" .c1").html("")
 $("."+pldname[3]+" div .e"+i+" .c1").html("")
 
-$("."+pldname[0]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[0]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[0]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[0]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[0]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[0]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[0]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[0]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[0]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[0]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[1]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[1]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[1]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[1]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[1]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[1]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[1]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[1]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[1]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[1]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[2]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[2]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[2]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[2]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[2]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[2]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[2]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[2]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[2]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[2]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[3]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[3]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[3]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[3]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[3]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[3]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[3]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[3]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[3]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[3]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
 }
 
 
-$(".gh2").html('<img src="https://supercatmach.neocities.org/word/op'+sittwind[0]+'.png" style="width:50px;height:50px;">')
+$(".gh2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/op'+sittwind[0]+'.png" style="width:50px;height:50px;">')
 
 $(".gh1").show()
 
-bgige2='<img src="https://supercatmach.neocities.org/word/'+(chnwind-28)+'.png" style="height:40px;">'
-bgige2+='<img src="https://supercatmach.neocities.org/word/wn.png" style="height:40px;">'
-bgige2+='<img src="https://supercatmach.neocities.org/word/'+(junwind-28)+'.png" style="height:40px;">'
+bgige2='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(chnwind-28)+'.png" style="height:40px;">'
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/wn.png" style="height:40px;">'
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(junwind-28)+'.png" style="height:40px;">'
 linmrsany=linmrs.toString().split("")
 
 if(linmrsany.length>1){
 
 for(let i=0;i<linmrsany.length-1;i++){
 
-bgige+='<img src="https://supercatmach.neocities.org/word/'+linmrsany[i]+'.png" style="height:150px;">'
+bgige+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+linmrsany[i]+'.png" style="height:150px;">'
 
-bgige2+='<img src="https://supercatmach.neocities.org/word/'+linmrsany[i]+'.png" style="height:40px;">'
-
-}
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+linmrsany[i]+'.png" style="height:40px;">'
 
 }
 
-bgige2+='<img src="https://supercatmach.neocities.org/word/0'+(linmrs+1)+'.png" style="height:40px;">'
+}
 
-bgige2+='<img src="https://supercatmach.neocities.org/word/ge.png" style="height:40px;">'
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/0'+(linmrs+1)+'.png" style="height:40px;">'
+
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/ge.png" style="height:40px;">'
 
 $(".bgige2").html(bgige2)///圈風局
 
@@ -926,17 +926,17 @@ donlow=''
 
 for(let i=1;i<4;i++){
 
-donlow+='<img src="https://supercatmach.neocities.org/watse/cv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/gv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/hv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/gv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/kil'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/mtkv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/nv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/psv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/ruv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/hv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/kil'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/mtkv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/nv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/psv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/ruv'+plerK[i]+'.png">'
 
-$(".pler"+i).html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[i]+'.png">')
+$(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[i]+'.png">')
 
 }
 
@@ -954,9 +954,9 @@ pledpicmyslef.style.display = "block";
 
 $(".piclond").html(donlow)
 
-$(".pler1").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[1]+'.png">').show()
-$(".pler2").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[2]+'.png">').show()
-$(".pler3").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[3]+'.png">').show()
+$(".pler1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[1]+'.png">').show()
+$(".pler2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[2]+'.png">').show()
+$(".pler3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[3]+'.png">').show()
 
 
 $(".adown,.camera,.mycad,.nextcad,.fontcad,.lastcad,.space,.etpghwordbk,.smoking").show()
@@ -975,7 +975,7 @@ sortShowCad(i)///整理牌面顯示
 
 for(let s=0;s<flocd[i].length;s++){
 
-$("."+pldname[i]+" div .f"+(flocd[i].length)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .f"+(flocd[i].length)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[i][s]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .f"+(flocd[i].length)).show().animate({top:"0px",left:"0px"},200);
 
@@ -983,7 +983,7 @@ $("."+pldname[i]+" div .f"+(flocd[i].length)).show().animate({top:"0px",left:"0p
 
 for(let s=0;s<flocd[i].length;s++){
 
-$("."+pldname[i]+" div .f"+(s+1)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+flocd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .f"+(s+1)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+flocd[i][s]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .f"+(s+1)).show().animate({top:"0px",left:"0px"},200);
 
@@ -992,7 +992,7 @@ $("."+pldname[i]+" div .f"+(s+1)).show().animate({top:"0px",left:"0px"},200);
 
 for(let s=0;s<otmgd[i].length;s++){
 
-$("."+pldname[i]+" div .o"+(s+1)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+otmgd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .o"+(s+1)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+otmgd[i][s]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .o"+(s+1)).show().animate({top:"0px",left:"0px"},200);
 
@@ -1008,21 +1008,21 @@ for(let s=0;s<rlmgd[i].length;s+=4){
 
 if(ramgd[i].indexOf(rlmgd[i][s])==-1){
 
-$("."+pldname[i]+" div .e"+(s+1)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+1)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .e"+(s+1)).show().animate({top:"0px",left:"0px"},200);
 
-$("."+pldname[i]+" div .e"+(s+2)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s+1]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+2)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s+1]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .e"+(s+2)).show().animate({top:"0px",left:"0px"},200);
 
-$("."+pldname[i]+" div .e"+(s+3)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s+2]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+3)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s+2]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .e"+(s+3)).show().animate({top:"0px",left:"0px"},200);
 
 if(rbmgd[i].indexOf(s+4)!=-1){///明槓
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s+3]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s+3]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .e"+(s+4)).show().animate({top:"0px",left:"0px"},200);
 
@@ -1034,17 +1034,17 @@ if(ramgd[i].indexOf(rlmgd[i][s])!=-1){///暗槓
 
 for(let t=1;t<4;t++){
 
-$("."+pldname[i]+" div .e"+(s+t)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+t)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+t)+" .c2").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+t)+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+t)+" .c3").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+t)+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s]+'.png" style="width:60px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+t)+" .c4").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+t)+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+t)+" .c5").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[i]+" div .e"+(s+t)+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[i]+" div .e"+(s+t)+" .c6").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[i]+" div .e"+(s+t)+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
 
 $("."+pldname[i]+" div .e"+(s+t)).show().animate({top:"0px",left:"0px"},200);
 
@@ -1052,17 +1052,17 @@ $("."+pldname[i]+" div .e"+(s+t)).show().animate({top:"0px",left:"0px"},200);
 
 if(i!=0){
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c2").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c3").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s+3]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s+3]+'.png" style="width:60px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c4").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c5").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c6").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
 
 $("."+pldname[i]+" div .e"+(s+4)).show().animate({top:"0px",left:"0px"},200);
 
@@ -1070,7 +1070,7 @@ $("."+pldname[i]+" div .e"+(s+4)).show().animate({top:"0px",left:"0px"},200);
 
 if(i==0){///本家暗槓
 
-$("."+pldname[i]+" div .e"+(s+4)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+rlmgd[i][s+3]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .e"+(s+4)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+rlmgd[i][s+3]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .e"+(s+4)).show().animate({top:"0px",left:"0px"},200);
 
@@ -1092,7 +1092,7 @@ plmgd[i].push(otc)
 
 for(let s=0;s<plmgd[i].length;s++){
 
-$("."+pldname[i]+" div .d"+(ethan[i]+s)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .d"+(ethan[i]+s)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[i][s]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .d"+(ethan[i]+s)).show().animate({top:"0px",left:"0px"},200);
 
@@ -1127,13 +1127,13 @@ for(let s=0;s<egall.length;s++){
 
 if(egmgd[i]>-1){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/mr'+egall[s]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mr'+egall[s]+'.png">'
 
 }
 
 if(egmgd[i]<0&&s!=0){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/m'+egall[s]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/m'+egall[s]+'.png">'
 
 }
 
@@ -1395,12 +1395,12 @@ $(".g4").html("牌零:"+plerinfor[pledpic].page)
 $(".g5").html("解鎖條件:"+plerinfor[pledpic].chk)
 $(".g6").html("介紹:"+plerinfor[pledpic].inf)
 
-$(".pler1").html('<img src="https://supercatmach.neocities.org/watse/cv1l.png">').show()
-$(".pler2").html('<img src="https://supercatmach.neocities.org/watse/cv2c.png">').show()
-$(".pler3").html('<img src="https://supercatmach.neocities.org/watse/cv3r.png">').show()
+$(".pler1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv1l.png">').show()
+$(".pler2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv2c.png">').show()
+$(".pler3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv3r.png">').show()
 
 
-$(".playerpic").html('<img src="https://supercatmach.neocities.org/stanbypled/cv0c.png">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv0c.png">')
 
 $(".playerpicup").hide()
 
@@ -1424,7 +1424,7 @@ arrowL.addEventListener("click",function () {
 
 pledpic=(pledpic-1>-1)?pledpic-1:plerinfor.length-1
 
-$(".playerpic").html('<img src="https://supercatmach.neocities.org/stanbypled/cv'+plerinfor[pledpic].pic+'.png">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png">')
 
 plerK[0]=plerinfor[pledpic].pic
 
@@ -1479,7 +1479,7 @@ arrowR.addEventListener("click",function () {
 
 pledpic=(pledpic+1<plerinfor.length)?pledpic+1:0
 
-$(".playerpic").html('<img src="https://supercatmach.neocities.org/stanbypled/cv'+plerinfor[pledpic].pic+'.png">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png">')
 
 plerK[0]=plerinfor[pledpic].pic
 
@@ -1617,17 +1617,17 @@ donlow=''
 
 for(let i=1;i<4;i++){
 
-donlow+='<img src="https://supercatmach.neocities.org/watse/cv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/gv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/hv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/gv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/kil'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/mtkv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/nv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/psv'+plerK[i]+'.png">'
-donlow+='<img src="https://supercatmach.neocities.org/watse/ruv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/hv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/kil'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/mtkv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/nv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/psv'+plerK[i]+'.png">'
+donlow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/ruv'+plerK[i]+'.png">'
 
-$(".pler"+i).html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[i]+'.png">')
+$(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[i]+'.png">')
 
 }
 
@@ -1704,13 +1704,13 @@ for(let i=0;i<egall.length;i++){
 
 if(egmgd[pled]>-1){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/mr'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mr'+egall[i]+'.png">'
 
 }
 
 if(egmgd[pled]<0&&i!=0){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/m'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/m'+egall[i]+'.png">'
 
 }
 
@@ -1851,34 +1851,34 @@ if(ply==3){$(".smok3").show().animate({left:"400",top:"150"},500).fadeOut(100);s
 
 function starDice(){///骰骰子
 
-bgige='<img src="https://supercatmach.neocities.org/word/'+(chnwind-28)+'.png" style="height:150px;">'
-bgige+='<img src="https://supercatmach.neocities.org/word/wn.png" style="height:150px;">'
-bgige+='<img src="https://supercatmach.neocities.org/word/'+(junwind-28)+'.png" style="height:150px;">'
+bgige='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(chnwind-28)+'.png" style="height:150px;">'
+bgige+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/wn.png" style="height:150px;">'
+bgige+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(junwind-28)+'.png" style="height:150px;">'
 
-bgige2='<img src="https://supercatmach.neocities.org/word/'+(chnwind-28)+'.png" style="height:40px;">'
-bgige2+='<img src="https://supercatmach.neocities.org/word/wn.png" style="height:40px;">'
-bgige2+='<img src="https://supercatmach.neocities.org/word/'+(junwind-28)+'.png" style="height:40px;">'
+bgige2='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(chnwind-28)+'.png" style="height:40px;">'
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/wn.png" style="height:40px;">'
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(junwind-28)+'.png" style="height:40px;">'
 linmrsany=linmrs.toString().split("")
 
 if(linmrsany.length>1){
 
 for(let i=0;i<linmrsany.length-1;i++){
 
-bgige+='<img src="https://supercatmach.neocities.org/word/'+linmrsany[i]+'.png" style="height:150px;">'
+bgige+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+linmrsany[i]+'.png" style="height:150px;">'
 
-bgige2+='<img src="https://supercatmach.neocities.org/word/'+linmrsany[i]+'.png" style="height:40px;">'
-
-}
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+linmrsany[i]+'.png" style="height:40px;">'
 
 }
 
-bgige+='<img src="https://supercatmach.neocities.org/word/0'+(linmrs+1)+'.png" style="height:150px;">'
+}
 
-bgige+='<img src="https://supercatmach.neocities.org/word/ge.png" style="height:150px;">'
+bgige+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/0'+(linmrs+1)+'.png" style="height:150px;">'
 
-bgige2+='<img src="https://supercatmach.neocities.org/word/0'+(linmrs+1)+'.png" style="height:40px;">'
+bgige+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/ge.png" style="height:150px;">'
 
-bgige2+='<img src="https://supercatmach.neocities.org/word/ge.png" style="height:40px;">'
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/0'+(linmrs+1)+'.png" style="height:40px;">'
+
+bgige2+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/ge.png" style="height:40px;">'
 
 $(".bgige").html(bgige)///圈風局
 $(".bgige2").html(bgige2)///圈風局
@@ -1889,21 +1889,21 @@ di1 = Math.floor(Math.random() * 6+1);
 di2 = Math.floor(Math.random() * 6+1);
 di3 = Math.floor(Math.random() * 6+1);
 
-$(".dice1 .dc"+di1).html('<img src="https://supercatmach.neocities.org/word/di2.png" style="width:100px;height:100px;">')
-$(".dice1 .dc"+Math.abs(7-di1)).html('<img src="https://supercatmach.neocities.org/word/di5.png" style="width:100px;height:100px;">')
-$(".dice1 .dc2").html('<img src="https://supercatmach.neocities.org/word/di'+di1+'.png" style="width:100px;height:100px;">')
-$(".dice1 .dc4").html('<img src="https://supercatmach.neocities.org/word/di'+Math.abs(7-di1)+'.png" style="width:100px;height:100px;">')
+$(".dice1 .dc"+di1).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/di2.png" style="width:100px;height:100px;">')
+$(".dice1 .dc"+Math.abs(7-di1)).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/di5.png" style="width:100px;height:100px;">')
+$(".dice1 .dc2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/di'+di1+'.png" style="width:100px;height:100px;">')
+$(".dice1 .dc4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/di'+Math.abs(7-di1)+'.png" style="width:100px;height:100px;">')
 
-$(".dice2 .dc"+di2).html('<img src="https://supercatmach.neocities.org/word/dg5.png" style="width:100px;height:100px;">')
-$(".dice2 .dc"+Math.abs(7-di2)).html('<img src="https://supercatmach.neocities.org/word/dg6.png" style="width:100px;height:100px;">')
-$(".dice2 .dc5").html('<img src="https://supercatmach.neocities.org/word/dg'+di2+'.png" style="width:100px;height:100px;">')
-$(".dice2 .dc6").html('<img src="https://supercatmach.neocities.org/word/dg'+Math.abs(7-di2)+'.png" style="width:100px;height:100px;">')
+$(".dice2 .dc"+di2).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/dg5.png" style="width:100px;height:100px;">')
+$(".dice2 .dc"+Math.abs(7-di2)).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/dg6.png" style="width:100px;height:100px;">')
+$(".dice2 .dc5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/dg'+di2+'.png" style="width:100px;height:100px;">')
+$(".dice2 .dc6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/dg'+Math.abs(7-di2)+'.png" style="width:100px;height:100px;">')
 
 
-$(".dice3 .dc"+di3).html('<img src="https://supercatmach.neocities.org/word/db3.png" style="width:100px;height:100px;">')
-$(".dice3 .dc"+Math.abs(7-di3)).html('<img src="https://supercatmach.neocities.org/word/db1.png" style="width:100px;height:100px;">')
-$(".dice3 .dc3").html('<img src="https://supercatmach.neocities.org/word/db'+di3+'.png" style="width:100px;height:100px;">')
-$(".dice3 .dc1").html('<img src="https://supercatmach.neocities.org/word/db'+Math.abs(7-di3)+'.png" style="width:100px;height:100px;">')
+$(".dice3 .dc"+di3).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/db3.png" style="width:100px;height:100px;">')
+$(".dice3 .dc"+Math.abs(7-di3)).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/db1.png" style="width:100px;height:100px;">')
+$(".dice3 .dc3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/db'+di3+'.png" style="width:100px;height:100px;">')
+$(".dice3 .dc1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/db'+Math.abs(7-di3)+'.png" style="width:100px;height:100px;">')
 
 $(".dice1").attr('class','dicem1');
 $(".dice2").attr('class','dicem2');
@@ -2184,9 +2184,9 @@ $(".m"+i).show()
 }
 
 
-$(".pler1").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[1]+'.png">').show()
-$(".pler2").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[2]+'.png">').show()
-$(".pler3").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[3]+'.png">').show()
+$(".pler1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[1]+'.png">').show()
+$(".pler2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[2]+'.png">').show()
+$(".pler3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[3]+'.png">').show()
 
 for(let i=1;i<9;i++){
 
@@ -2234,29 +2234,29 @@ $("."+pldname[1]+" div .e"+i+" .c1").html("")
 $("."+pldname[2]+" div .e"+i+" .c1").html("")
 $("."+pldname[3]+" div .e"+i+" .c1").html("")
 
-$("."+pldname[0]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[0]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[0]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[0]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[0]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[0]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[0]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[0]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[0]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[0]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[1]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[1]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[1]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[1]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[1]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[1]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[1]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[1]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[1]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[1]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[2]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[2]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[2]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[2]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[2]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[2]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[2]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[2]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[2]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[2]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[3]+" div .e"+i+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
-$("."+pldname[3]+" div .e"+i+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
-$("."+pldname[3]+" div .e"+i+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
-$("."+pldname[3]+" div .e"+i+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
-$("."+pldname[3]+" div .e"+i+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[3]+" div .e"+i+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[3]+" div .e"+i+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[3]+" div .e"+i+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[3]+" div .e"+i+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[3]+" div .e"+i+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
 }
 $(".bk60").hide()
@@ -2327,7 +2327,7 @@ setTimeout('gamStar2()',300)
 
 function gamStar(){///抽出一開始的16張牌(不能重覆)
 
-$(".gh2").html('<img src="https://supercatmach.neocities.org/word/op'+sittwind[0]+'.png" style="width:50px;height:50px;">')
+$(".gh2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/op'+sittwind[0]+'.png" style="width:50px;height:50px;">')
 
 $(".gh1").show()
 
@@ -2372,7 +2372,7 @@ const cardIndex = plmgd[i].length;
 
 const img = new Image();
 
-img.src = "https://supercatmach.neocities.org/mach/"+Math.ceil(n/4)+".png";
+img.src = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/"+Math.ceil(n/4)+".png";
 
 img.onload = function () {
   $("."+pldname[i]+" div .d"+cardIndex+" .c1").html(img);
@@ -2392,7 +2392,7 @@ plmgd[i].push(n)///放入玩家的手牌
 const cardIndex = plmgd[i].length;
 
 const img = new Image();
-img.src = "https://supercatmach.neocities.org/mach/"+n+".png";
+img.src = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/"+n+".png";
 
 img.onload = function () {
   $("."+pldname[i]+" div .d"+cardIndex+" .c1").html(img);
@@ -2433,7 +2433,7 @@ if(plmgd[i][s]>=137){///花牌
 
 flocd[i].push(plmgd[i][s])
 
-$("."+pldname[i]+" div .f"+(flocd[i].length)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[i][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .f"+(flocd[i].length)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[i][s]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .f"+(flocd[i].length)).show().animate({top:"0px",left:"0px"},200);
 
@@ -2447,7 +2447,7 @@ if(n>=137&&allmgd.indexOf(n)==-1){
 
 flocd[i].push(n)
 
-$("."+pldname[i]+" div .f"+(flocd[i].length)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+n+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .f"+(flocd[i].length)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+n+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[i]+" div .f"+(flocd[i].length)).show().animate({top:"0px",left:"0px"},200);
 
@@ -2461,7 +2461,7 @@ plmgd[i][s]=(Math.ceil(n/4))///放入玩家的手牌
 
 allmgd.push(n)///放入全部的牌
 
-$("."+pldname[i]+" div .d"+(s+1)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+Math.ceil(n/4)+'.png" style="width:60px;height:80px;">')
+$("."+pldname[i]+" div .d"+(s+1)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+Math.ceil(n/4)+'.png" style="width:60px;height:80px;">')
 
 }
 
@@ -2493,7 +2493,7 @@ return a - b
 
 for(let s=0;s<plmgd[pld].length;s++){
 
-$("."+pldname[pld]+" div .d"+(ethan[pld]+s)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[pld][s]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pld]+" div .d"+(ethan[pld]+s)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[pld][s]+'.png" style="width:60px;height:80px;">')
 
 }
 
@@ -2591,25 +2591,25 @@ wincadhand=""
 
 for(let i=0;i<rlmgd[pled].length;i++){
 
-wincadhand+='<img src="https://supercatmach.neocities.org/meup/'+rlmgd[pled][i]+'.png" style="width:70px;">'
-wincadhand+='<img src="https://supercatmach.neocities.org/meup/'+rlmgd[pled][i+1]+'.png" style="width:70px;">'
-wincadhand+='<img src="https://supercatmach.neocities.org/meup/'+rlmgd[pled][i+2]+'.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/meup/'+rlmgd[pled][i]+'.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/meup/'+rlmgd[pled][i+1]+'.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/meup/'+rlmgd[pled][i+2]+'.png" style="width:70px;">'
 
 i+=3
 
 }
 
-wincadhand+='<img src="https://supercatmach.neocities.org/meup/n.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/meup/n.png" style="width:70px;">'
 
 for(let i=0;i<plmgd[pled].length;i++){
 
-wincadhand+='<img src="https://supercatmach.neocities.org/mati/'+plmgd[pled][i]+'.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mati/'+plmgd[pled][i]+'.png" style="width:70px;">'
 
 }
 
-wincadhand+='<img src="https://supercatmach.neocities.org/meup/n.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/meup/n.png" style="width:70px;">'
 
-wincadhand+='<img src="https://supercatmach.neocities.org/mati/'+wincad+'.png" style="width:70px;">'
+wincadhand+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mati/'+wincad+'.png" style="width:70px;">'
 
 $(".wincadhand").html(wincadhand)///手牌
 
@@ -2617,15 +2617,15 @@ wincadflow=""
 
 for(let i=0;i<flocd[pled].length;i++){
 
-wincadflow+='<img src="https://supercatmach.neocities.org/mati/'+flocd[pled][i]+'.png" style="width:50px;">'
+wincadflow+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mati/'+flocd[pled][i]+'.png" style="width:50px;">'
 
 }
 
 $(".wincadflow").html(wincadflow)///花牌
 
-winge='<img src="https://supercatmach.neocities.org/word/'+(chnwind-28)+'.png" style="height:45px;">'
-winge+='<img src="https://supercatmach.neocities.org/word/wn.png" style="height:45px;">'
-winge+='<img src="https://supercatmach.neocities.org/word/'+(junwind-28)+'.png" style="height:45px;">'
+winge='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(chnwind-28)+'.png" style="height:45px;">'
+winge+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/wn.png" style="height:45px;">'
+winge+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+(junwind-28)+'.png" style="height:45px;">'
 
 linmrsany=linmrs.toString().split("")
 
@@ -2633,15 +2633,15 @@ if(linmrsany.length>1){
 
 for(let i=0;i<linmrsany.length-1;i++){
 
-winge+='<img src="https://supercatmach.neocities.org/word/'+linmrsany[i]+'.png" style="height:45px;">'
+winge+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/'+linmrsany[i]+'.png" style="height:45px;">'
 
 }
 
 }
 
-winge+='<img src="https://supercatmach.neocities.org/word/0'+(linmrs+1)+'.png" style="height:45px;">'
+winge+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/0'+(linmrs+1)+'.png" style="height:45px;">'
 
-winge+='<img src="https://supercatmach.neocities.org/word/ge.png" style="height:45px;">'
+winge+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/ge.png" style="height:45px;">'
 
 $(".winge").html(winge)///圈風局
 
@@ -2651,10 +2651,10 @@ ykany=yk0.toString().split("")
 
 for(let i=0;i<ykany.length;i++){
 
-wintaiall+='<img src="https://supercatmach.neocities.org/word/bw'+ykany[i]+'.png">'
+wintaiall+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/bw'+ykany[i]+'.png">'
 
 }
-wintaiall+='<img src="https://supercatmach.neocities.org/word/sen2.png">'
+wintaiall+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/sen2.png">'
 
 $(".wintaiall").html(wintaiall)///總台數
 
@@ -2716,17 +2716,17 @@ yksd=ykall
 ykall=ykall.toString().split("")
 
 
-winco='<img src="https://supercatmach.neocities.org/word/add.png">'
+winco='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/add.png">'
 
 for(let i=0;i<ykall.length;i++){
 
-winco+='<img src="https://supercatmach.neocities.org/word/co'+ykall[i]+'.png">'
+winco+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/co'+ykall[i]+'.png">'
 
 }
 
 $(".winco").html(winco)///得分
 
-$(".winpler").html('<img src="https://supercatmach.neocities.org/watse/mtkv'+plerK[pled]+'.png">')///人物
+$(".winpler").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/mtkv'+plerK[pled]+'.png">')///人物
 
 if(pled==0&&pledpicmyslef!="-1"){
 
@@ -2745,13 +2745,13 @@ for(let i=0;i<egall.length;i++){
 
 if(egmgd[pled]>-1){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/mr'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mr'+egall[i]+'.png">'
 
 }
 
 if(egmgd[pled]<0&&i!=0){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/m'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/m'+egall[i]+'.png">'
 
 }
 
@@ -2775,13 +2775,13 @@ for(let i=0;i<egall.length;i++){
 
 if(egmgd[s]>-1){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/mr'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mr'+egall[i]+'.png">'
 
 }
 
 if(egmgd[s]<0&&i!=0){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/m'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/m'+egall[i]+'.png">'
 
 }
 
@@ -2803,13 +2803,13 @@ for(let i=0;i<egall.length;i++){
 
 if(egmgd[s]>-1){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/mr'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mr'+egall[i]+'.png">'
 
 }
 
 if(egmgd[s]<0&&i!=0){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/m'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/m'+egall[i]+'.png">'
 
 }
 
@@ -2831,13 +2831,13 @@ for(let i=0;i<egall.length;i++){
 
 if(egmgd[s]>-1){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/mr'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mr'+egall[i]+'.png">'
 
 }
 
 if(egmgd[s]<0&&i!=0){
 
-egnew+='<img src="https://supercatmach.neocities.org/word/m'+egall[i]+'.png">'
+egnew+='<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/m'+egall[i]+'.png">'
 
 }
 
@@ -2853,30 +2853,30 @@ $("."+pldname[s]+" div .lifenum").html(egnew)
 
 
 $(".tainame").html('')
-if(whtai.indexOf("平胡")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/nopun.png">')}
-if(whtai.indexOf("全求人")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/plzother.png">')}
-if(whtai.indexOf("搶槓胡")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/othergunhu.png">')}
-if(whtai.indexOf("河底撈魚")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/lastfish.png">')}
-if(whtai.indexOf("海底撈月")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/lastmoon.png">')}
-if(whtai.indexOf("槓上開花")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/gunhu.png">')}
-if(whtai.indexOf("自摸")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/powtake.png">')}
-if(whtai.indexOf("門清一摸三")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/mytakeall.png">')}
-if(whtai.indexOf("三暗刻")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/punthree.png">')}
-if(whtai.indexOf("碰碰胡")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/punall.png">')}
-if(whtai.indexOf("四暗刻")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/punfour.png">')}
-if(whtai.indexOf("五暗刻")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/punfive.png">')}
-if(whtai.indexOf("七搶一")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/seventkone.png">')}
-if(whtai.indexOf("八仙過海")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/godtosee.png">')}
-if(whtai.indexOf("小三元")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/smothree.png">')}
-if(whtai.indexOf("大三元")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/bigthree.png">')}
-if(whtai.indexOf("小四喜")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/smofour.png">')}
-if(whtai.indexOf("大四喜")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/bigfour.png">')}
-if(whtai.indexOf("湊一色")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/onlynumber.png">')}
-if(whtai.indexOf("清一色")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/numberall.png">')}
-if(whtai.indexOf("字一色")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/wordall.png">')}
-if(whtai.indexOf("人胡")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/humenhu.png">')}
-if(whtai.indexOf("地胡")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/grundhu.png">')}
-if(whtai.indexOf("天胡")!=-1){$(".tainame").html('<img src="https://supercatmach.neocities.org/word/godhu.png">')}
+if(whtai.indexOf("平胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/nopun.png">')}
+if(whtai.indexOf("全求人")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/plzother.png">')}
+if(whtai.indexOf("搶槓胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/othergunhu.png">')}
+if(whtai.indexOf("河底撈魚")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/lastfish.png">')}
+if(whtai.indexOf("海底撈月")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/lastmoon.png">')}
+if(whtai.indexOf("槓上開花")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/gunhu.png">')}
+if(whtai.indexOf("自摸")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/powtake.png">')}
+if(whtai.indexOf("門清一摸三")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/mytakeall.png">')}
+if(whtai.indexOf("三暗刻")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/punthree.png">')}
+if(whtai.indexOf("碰碰胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/punall.png">')}
+if(whtai.indexOf("四暗刻")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/punfour.png">')}
+if(whtai.indexOf("五暗刻")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/punfive.png">')}
+if(whtai.indexOf("七搶一")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/seventkone.png">')}
+if(whtai.indexOf("八仙過海")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/godtosee.png">')}
+if(whtai.indexOf("小三元")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/smothree.png">')}
+if(whtai.indexOf("大三元")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/bigthree.png">')}
+if(whtai.indexOf("小四喜")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/smofour.png">')}
+if(whtai.indexOf("大四喜")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/bigfour.png">')}
+if(whtai.indexOf("湊一色")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/onlynumber.png">')}
+if(whtai.indexOf("清一色")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/numberall.png">')}
+if(whtai.indexOf("字一色")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/wordall.png">')}
+if(whtai.indexOf("人胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/humenhu.png">')}
+if(whtai.indexOf("地胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/grundhu.png">')}
+if(whtai.indexOf("天胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/godhu.png">')}
 
 ///setTimeout('$(".bk60").show(500)',1000)
 
@@ -3563,9 +3563,9 @@ $(".outshowcad div").hide()
 
 $(".etpgword img").hide()
 
-$(".pler1").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[1]+'.png">').show()
-$(".pler2").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[2]+'.png">').show()
-$(".pler3").html('<img src="https://supercatmach.neocities.org/watse/cv'+plerK[3]+'.png">').show()
+$(".pler1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[1]+'.png">').show()
+$(".pler2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[2]+'.png">').show()
+$(".pler3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv'+plerK[3]+'.png">').show()
 
 var n = allmgd[0]
 
@@ -3579,7 +3579,7 @@ if(n>=137&&allmgd.indexOf(n)==-1){
 
 flocd[pled].push(n)
 
-$("."+pldname[pled]+" div .f"+(flocd[pled].length)+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+n+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .f"+(flocd[pled].length)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+n+'.png" style="width:60px;height:80px;">')
 
 setTimeout('$("."+pldname[pled]+" div .f"+(flocd[pled].length)).show().animate({top:"0px",left:"0px"},200);',500)
 
@@ -3591,7 +3591,7 @@ plednow=pled
 
 
 const img = new Image();
-img.src = "https://supercatmach.neocities.org/mach/"+n+".png";
+img.src = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/"+n+".png";
 
 img.onload = function () {
   $("."+pldname[plednow]+" div .d17 .c1").html(img);
@@ -3685,13 +3685,13 @@ for(let i=1;i<4;i++){
 
 if(pled==i){
 
-$(".pler"+i).html('<img src="https://supercatmach.neocities.org/watse/ruv'+plerK[i]+'.png">')
+$(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/ruv'+plerK[i]+'.png">')
 
 }
 
 if(pled!=i){
 
-$(".pler"+i).html('<img src="https://supercatmach.neocities.org/watse/kil'+plerK[i]+'.png">')
+$(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/kil'+plerK[i]+'.png">')
 
 }
 
@@ -3710,7 +3710,7 @@ $(".flash"+pled).show()
 
 setTimeout('$(".flash"+'+pled+').hide()',500)
 
-$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://supercatmach.neocities.org/mach/'+Math.ceil(n/4)+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+Math.ceil(n/4)+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .d17").animate({},10,function(){
 
@@ -3750,7 +3750,7 @@ return
 plednow=pled
 
 const img = new Image();
-img.src = "https://supercatmach.neocities.org/mach/"+Math.ceil(n/4)+".png";
+img.src = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/"+Math.ceil(n/4)+".png";
 
 img.onload = function () {
   $("."+pldname[plednow]+" div .d17 .c1").html(img);
@@ -3896,17 +3896,17 @@ for(let s=0;s<4;s++){
 
 rlmgd[pled].push(cpt)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c2").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c3").html('<img src="https://supercatmach.neocities.org/mach/'+cpt+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpt+'.png" style="width:60px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c4").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c5").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c6").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -4003,13 +4003,13 @@ if(etnum[pled]+tsp==6){
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/hv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/hv'+plerK[pled]+'.png">')
 
 }
 
 if(pledbk!=0){
 
-$(".pler"+pledbk).html('<img src="https://supercatmach.neocities.org/watse/psv'+plerK[pledbk]+'.png">')
+$(".pler"+pledbk).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/psv'+plerK[pledbk]+'.png">')
 
 }
 
@@ -4017,7 +4017,7 @@ $(".flash"+pled).show()
 
 setTimeout('$(".flash"+'+pled+').hide()',500)
 
-$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpt+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpt+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .d17").animate({},10,function(){
 
@@ -4298,7 +4298,7 @@ otmgd[pled].forEach(function(x) { cpo[x] = (cpo[x] || 0)+1; })///計算出現過
 
 if(pled!=0&&cpo[plmgd[pled][mdt]]>=1&&epgmow==0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/nv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/nv'+plerK[pled]+'.png">')
 
 }
 
@@ -4316,11 +4316,11 @@ cpd=plmgd[pled][mdt]
 
 otmgd[pled].push(plmgd[pled][mdt])
 
-$("."+pldname[pled]+" div .o"+otmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[pled][mdt]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .o"+otmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[pled][mdt]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .o"+otmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
-$(".outshow"+pled).html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[pled][mdt]+'.png">').show()
+$(".outshow"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[pled][mdt]+'.png">').show()
 
 delete plmgd[pled][mdt]
 
@@ -4379,13 +4379,13 @@ if(etnum[pled]+tsp==6){
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/hv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/hv'+plerK[pled]+'.png">')
 
 }
 
 if(pledbk!=0){
 
-$(".pler"+pledbk).html('<img src="https://supercatmach.neocities.org/watse/psv'+plerK[pledbk]+'.png">')
+$(".pler"+pledbk).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/psv'+plerK[pledbk]+'.png">')
 
 }
 
@@ -4393,7 +4393,7 @@ $(".flash"+pled).show()
 
 setTimeout('$(".flash"+'+pled+').hide()',500)
 
-$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .d17").animate({},10,function(){
 
@@ -4518,7 +4518,7 @@ for(let s=0;s<4;s++){
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -4721,7 +4721,7 @@ for(let s=0;s<3;s++){
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -4729,7 +4729,7 @@ $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).animate({top:"0px",left:"0px"},200);
 
@@ -4764,7 +4764,7 @@ $(".pun"+pled).show()
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/gv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[pled]+'.png">')
 
 }
 
@@ -5112,25 +5112,25 @@ return b.ot - a.ot
 
 rlmgd[pled].push(etall[0].cok[0])
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+etall[0].cok[0]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+etall[0].cok[0]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 rlmgd[pled].push(etall[0].cok[1])
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+etall[0].cok[1]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+etall[0].cok[1]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length)
 
@@ -5188,7 +5188,7 @@ $(".eat"+pled).show()
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/gv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[pled]+'.png">')
 
 }
 
@@ -5448,34 +5448,34 @@ for(let s=0;s<4;s++){
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c2").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c3").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c4").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c5").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c6").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 
 if(pled==0&&s==3){
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c2").html('<img src="https://supercatmach.neocities.org/mach/l.png" style="width:30px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/l.png" style="width:30px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c3").html('<img src="https://supercatmach.neocities.org/mach/0.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/0.png" style="width:60px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c4").html('<img src="https://supercatmach.neocities.org/mach/r.png" style="width:30px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c4").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/r.png" style="width:30px;height:80px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c5").html('<img src="https://supercatmach.neocities.org/mach/u.png" style="width:60px;height:30px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c5").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/u.png" style="width:60px;height:30px;">')
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c6").html('<img src="https://supercatmach.neocities.org/mach/d.png" style="width:60px;height:30px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c6").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/d.png" style="width:60px;height:30px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -5525,7 +5525,7 @@ for(let s=0;s<4;s++){
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -5591,7 +5591,7 @@ if(etnum[pled]+tsp==6){
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/hv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/hv'+plerK[pled]+'.png">')
 
 }
 
@@ -5599,7 +5599,7 @@ $(".flash"+pled).show()
 
 setTimeout('$(".flash"+'+pled+').hide()',500)
 
-$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .d17").animate({},10,function(){
 
@@ -5681,7 +5681,7 @@ for(let s=0;s<3;s++){
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -5689,7 +5689,7 @@ $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).animate({top:"0px",left:"0px"},200);
 
@@ -5724,7 +5724,7 @@ $(".pun"+pled).show()
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/gv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[pled]+'.png">')
 
 }
 
@@ -5764,25 +5764,25 @@ rcmgd[pledbk].push(otmgd[pledbk].length-1)
 
 rlmgd[pled].push(etall[0].cok[0])
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+etall[0].cok[0]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+etall[0].cok[0]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 rlmgd[pled].push(etall[0].cok[1])
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+etall[0].cok[1]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+etall[0].cok[1]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
 rlmgd[pled].push(cpd)
 
-$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+cpd+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .e"+rlmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+cpd+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .e"+rlmgd[pled].length)
 
@@ -5828,7 +5828,7 @@ $(".eat"+pled).show()
 
 if(pled!=0){
 
-$(".pler"+pled).html('<img src="https://supercatmach.neocities.org/watse/gv'+plerK[pled]+'.png">')
+$(".pler"+pled).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/gv'+plerK[pled]+'.png">')
 
 }
 
@@ -6529,7 +6529,7 @@ cpd=plmgd[pled][mdt]
 
 otmgd[pled].push(plmgd[pled][mdt])
 
-$("."+pldname[pled]+" div .o"+otmgd[pled].length+" .c1").html('<img src="https://supercatmach.neocities.org/mach/'+plmgd[pled][mdt]+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .o"+otmgd[pled].length+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+plmgd[pled][mdt]+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .o"+otmgd[pled].length).show().animate({top:"0px",left:"0px"},200);
 
@@ -6573,13 +6573,13 @@ for(let i=1;i<4;i++){
 
 if(pled==i){
 
-$(".pler"+i).html('<img src="https://supercatmach.neocities.org/watse/ruv'+plerK[i]+'.png">')
+$(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/ruv'+plerK[i]+'.png">')
 
 }
 
 if(pled!=i){
 
-$(".pler"+i).html('<img src="https://supercatmach.neocities.org/watse/kil'+plerK[i]+'.png">')
+$(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/kil'+plerK[i]+'.png">')
 
 }
 
@@ -6598,7 +6598,7 @@ $(".flash"+pled).show()
 
 setTimeout('$(".flash"+'+pled+').hide()',500)
 
-$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://supercatmach.neocities.org/mach/'+otc+'.png" style="width:60px;height:80px;">')
+$("."+pldname[pled]+" div .d17 .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+otc+'.png" style="width:60px;height:80px;">')
 
 $("."+pldname[pled]+" div .d17").animate({},10,function(){
 
