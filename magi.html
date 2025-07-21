@@ -4850,6 +4850,44 @@ setTimeout('begStar()',500)
 
 })
 
+//////////////////////////////////////////////////
+
+function getCantOutCards(card, epgtw) {
+  const cantoutcd = [Number(card[1])]; // 中間牌必不能捨
+
+  if (epgtw === "eat") {
+    const c0 = Number(card[0]);
+    const c1 = Number(card[1]); // 中間
+    const c2 = Number(card[2]);
+
+    const min = Math.min(c0, c1, c2);
+    const max = Math.max(c0, c1, c2);
+
+    const isValidSuit = (a, b) => isSameSuit(a, b);
+
+    // 向下吃（如 2,3,4）-> mtd 是最大值 -> 保護 min -1
+    if (c1 === max) {
+      const protect = min - 1;
+      if (isValidSuit(min, protect)) cantoutcd.push(protect);
+    }
+
+    // 向上吃（如 4,5,6）-> mtd 是最小值 -> 保護 max +1
+    else if (c1 === min) {
+      const protect = max + 1;
+      if (isValidSuit(max, protect)) cantoutcd.push(protect);
+    }
+
+    // 中間吃（如 3,4,5），不需要額外保護
+  }
+
+  return cantoutcd;
+}
+
+// 判斷是否同一花色
+function isSameSuit(a, b) {
+  return Math.ceil(a / 9) === Math.ceil(b / 9);
+}
+////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////
 socket.off("caneph");
@@ -4992,27 +5030,7 @@ console.log(lomgd[ple])
 
 if(ple==0){
 
-cantoutcd=[Number(card[1])]///不能捨出的牌
-
-etfood=[0,10,10,10,10,10,10,10,10,10,19,19,19,19,19,19,19,19,19,28,28,28,28,28,28,28,28,28]
-
-if(epgtw=="eat"){
-
-cpd=Number(card[1])
-
-if(plmgd.indexOf(cpd-1)!=-1&&plmgd.indexOf(cpd-2)!=-1&&cpd-2>etfood[cpd]-10){///
-
-if(etfood[cpd-3]==etfood[cpd-2]){cantoutcd.push(cpd-3)}
-
-}
-
-if(plmgd.indexOf(cpd+1)!=-1&&plmgd.indexOf(cpd+2)!=-1&&cpd+2<etfood[cpd]){///
-
-if(etfood[cpd+3]==etfood[cpd+2]){cantoutcd.push(cpd+3)}
-
-}
-
-}
+cantoutcd = getCantOutCards(card, epgtw);
 
 }
 
