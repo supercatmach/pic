@@ -2799,7 +2799,7 @@ $(".stanbylondingshap100").animate({width:'100%'},10000);
 
 window.addEventListener("load", () => {
   // 所有圖片載入完才會執行這裡的程式碼
-  console.log("圖片全部載入完成！");
+  ///console.log("圖片全部載入完成！");
 
 
 $(".stanbylondingshap100").stop();
@@ -2962,7 +2962,7 @@ lopal=0
 
 let storedCharich = sessionStorage.getItem("charich");
 
-console.log(storedCharich)
+///console.log(storedCharich)
 
 picself=0///是否為自己上傳的圖
 
@@ -2986,7 +2986,7 @@ charich = (storedCharich === null || storedCharich === "null")
 
 }
 
-console.log(charich)
+///console.log(charich)
 
 const urlParams = new URLSearchParams(window.location.search);
 const roomId = urlParams.get("room");
@@ -3007,7 +3007,7 @@ socket.off("playerJoined");
 ///$(".playerpic"+lopal).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+(lopal-1)+'.png"></div>').show(500)
 
 
-console.log("目前人數:"+datainf.roomSize)
+///console.log("目前人數:"+datainf.roomSize)
 
 $("#stargame").html("目前人數:"+datainf.roomSize)
 
@@ -3072,7 +3072,7 @@ $(".aijoin").show()
 
 }
 
-console.log(chelength)
+///console.log(chelength)
 
 for(let i=1;i<5;i++){
 
@@ -3090,7 +3090,7 @@ pledpicmyslef.style.width = "auto";
 
 $(".playerpic"+(i+1)).html(pledpicmyslef).show()
 
-console.log("OK")
+///console.log("OK")
 
 } else {
 
@@ -3106,9 +3106,9 @@ socket.on("playerDisconnected", (datainf) => {
 
 if(allplad.length!=0){
 
-console.log(allplad)
+///console.log(allplad)
 
-  console.log(datainf.playerId+"斷線了");
+  ///console.log(datainf.playerId+"斷線了");
 
 lop=allplad.indexOf(datainf.playerId)
 
@@ -3122,7 +3122,7 @@ lopal--
 
 socket.off("reconnectConfirmed");
 socket.on("reconnectConfirmed", () => {
-  console.log("伺服器確認重連成功");
+  ///console.log("伺服器確認重連成功");
   if (reconnectInterval) {
     clearInterval(reconnectInterval);
     reconnectInterval = null;
@@ -3134,14 +3134,14 @@ socket.on("hi", (idinf) => {
 
 yoridis=idinf
 
-  console.log("伺服器確認重連成功",idinf);
+  ///console.log("伺服器確認重連成功",idinf);
 
 
 });
 
 $("#snedBtn").click(function() {
 
-console.log(window.location.href)
+///console.log(window.location.href)
 
 socket.emit("invit", [$(".friendpin").val(),window.location.href]);
 
@@ -3152,7 +3152,7 @@ $(".friendpin").val("")
 
 $(".aijoin").click(function() {
 
-console.log(roomId)
+///console.log(roomId)
 
 socket.emit("wantinvit", roomId);
 
@@ -3177,7 +3177,7 @@ fetch(`${serverURL}/imglist`)
       const img = new Image();
       img.src = url;
     });
-    console.log("圖片已開始預載入", imgList);
+    ///console.log("圖片已開始預載入", imgList);
   })
   .catch(err => {
     console.error("❌ 圖片列表載入失敗:", err);
@@ -3256,7 +3256,7 @@ wnyn = document.querySelector(".epgh5");
 
 wnyn.addEventListener("click",function (event) {
 
-console.log(caneph[5])
+///console.log(caneph[5])
 
 ///delete plmgd[plmgd.indexOf(caneph[5][0])]
 
@@ -3726,7 +3726,7 @@ $(".bk60").hide()
 
 setTimeout(() => {
 
-console.log("莊家:"+makrs)
+///console.log("莊家:"+makrs)
 
 socket.emit("dice",roomId);
 
@@ -4079,7 +4079,7 @@ for (let i = 0; i < allplad.length; i++) {
   }
 }
 
-console.log(plerK)
+///console.log(plerK)
 
 setlcr=["c","l","c","r"]
 
@@ -4104,13 +4104,13 @@ $(".pler"+i).html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/w
 
 makrs=allplad.indexOf(JSON.parse(data)[2])
 
-console.log("莊家:"+makrs)
+///console.log("莊家:"+makrs)
 
 
 socket.emit("dice",roomId);
 
-console.log(idfme)
-console.log(allplad)
+///console.log(idfme)
+///console.log(allplad)
 
 $(".zun"+makrs).show()
 
@@ -4218,7 +4218,7 @@ $(".gh1").show()
 
 $(".bk30").hide()
 
-console.log(sittwind)
+///console.log(sittwind)
 
 socket.emit("gamStar",roomId);
 
@@ -4808,7 +4808,7 @@ $(".muhandaury .d17").hide()
 
 socket.emit("outcard",JSON.stringify([roomId,Number(card)]));
 
-console.log(Number(card))
+///console.log(Number(card))
 
 delete plmgd[plmgd.indexOf(Number(card))]
 
@@ -4940,7 +4940,7 @@ ephchick=0
 
 }
 
-console.log("吃碰槓反應")
+///console.log("吃碰槓反應")
 
 if(epgtw=="win"){
 
@@ -5004,7 +5004,7 @@ tsp=manum///組數
 
 tsp+=(crdeye>0)?1:0///組數
 
-///console.log(s+":"+tsp)
+//////console.log(s+":"+tsp)
 
 if(rlmgd[ple].length+tsp==6){
 
@@ -5020,10 +5020,10 @@ plmgd=JSON.parse(JSON.stringify(bkmgds))///複製
 plmgd=JSON.parse(data)[1]
 
 
-console.log(lbmgd)
-console.log(plmgd)
-console.log(rlmgd[ple])
-console.log(lomgd[ple])
+///console.log(lbmgd)
+///console.log(plmgd)
+///console.log(rlmgd[ple])
+///console.log(lomgd[ple])
 
 
 }
@@ -5125,7 +5125,7 @@ s++
 }
 
 
-console.log(card)
+///console.log(card)
 
 pled=ple
 
@@ -5620,7 +5620,7 @@ return a - b
 
 wincadhand=""
 
-console.log(rlmgd[pled])
+///console.log(rlmgd[pled])
 
 rlmgd2=[]
 
@@ -5921,7 +5921,7 @@ $("."+pldname[s]+" .lifenum").html(egnew)
 }
 
 }
-console.log("分數計算")
+///console.log("分數計算")
 
 $(".tainame").html('')
 if(whtai.indexOf("平胡")!=-1){$(".tainame").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/word/nopun.png">')}
@@ -6078,7 +6078,7 @@ flocd[ple].push(Number(mtd+102))
 
 nogunwin=1///槓上開花
 
-console.log(mtd)
+///console.log(mtd)
 
 if(ple==3){
 
@@ -6178,8 +6178,8 @@ doethp=Number(mtd)///如果不吃碰回傳用
 
 wincard=mtd
 
-console.log(outcardinf)
-console.log(allplad)
+///console.log(outcardinf)
+///console.log(allplad)
 
 ple=allplad.indexOf(pled)
 
@@ -6285,7 +6285,7 @@ socket.emit("epghpk",JSON.stringify([roomId,0]));
 
 socket.emit("outchak",JSON.stringify([roomId,mtd]));
 
-console.log("傳送確認吃碰槓")
+///console.log("傳送確認吃碰槓")
 
 return
 
@@ -6341,7 +6341,7 @@ epgh[4]="epgh5"
 
 }
 
-console.log(tsp+etmgd.length)
+///console.log(tsp+etmgd.length)
 
 plmgd=JSON.parse(JSON.stringify(bkmgd))///複製
 
@@ -6385,7 +6385,7 @@ if(mtd>2&&cpf[mtd-1]>0&&cpf[mtd-2]>0&&Math.ceil((mtd-2)/9)==Math.ceil(mtd/9)&&Ma
 
 caneph[1].push([Number(mtd-1),Number(mtd),Number(mtd-2)])
 
-console.log(caneph[1])
+///console.log(caneph[1])
 
 socket.emit("epghpk",JSON.stringify([roomId,1]));
 
@@ -6399,7 +6399,7 @@ if(mtd<26&&cpf[mtd+1]>0&&cpf[mtd+2]>0&&Math.ceil((mtd+2)/9)==Math.ceil(mtd/9)&&M
 
 caneph[1].push([Number(mtd+1),Number(mtd),Number(mtd+2)])
 
-console.log(caneph[1])
+///console.log(caneph[1])
 
 socket.emit("epghpk",JSON.stringify([roomId,1]));
 
@@ -6413,7 +6413,7 @@ if(mtd<27&&mtd>1&&cpf[mtd+1]>0&&cpf[mtd-1]>0&&Math.ceil((mtd+1)/9)==Math.ceil(mt
 
 caneph[1].push([Number(mtd-1),Number(mtd),Number(mtd+1)])
 
-console.log(caneph[1])
+///console.log(caneph[1])
 
 socket.emit("epghpk",JSON.stringify([roomId,1]));
 
@@ -6431,7 +6431,7 @@ if(ephchick==0){///如果沒有吃碰槓胡則返回
 
 socket.emit("epghpk",JSON.stringify([roomId,0]));
 
-console.log("本家無吃碰")
+///console.log("本家無吃碰")
 
 }
 
@@ -6439,7 +6439,7 @@ console.log("本家無吃碰")
 
 socket.emit("outchak",JSON.stringify([roomId,mtd]));
 
-console.log("傳送確認吃碰槓",mtd)
+///console.log("傳送確認吃碰槓",mtd)
 
 });
 
@@ -6458,7 +6458,7 @@ if(winp==1){
 
 plmgd=JSON.parse(JSON.stringify(bkmgdwin))///複製
 
-console.log("win")
+///console.log("win")
 
 socket.emit("win",JSON.stringify([roomId,plmgd,lbmgd,flmgd,etmgd]));
 
@@ -6500,7 +6500,7 @@ if(ephchick==0){///如果沒有吃碰槓胡則返回
 
 socket.emit("needgetcard",JSON.stringify([roomId,pled,mtd]));
 
-console.log("needgetcard",mtd)
+///console.log("needgetcard",mtd)
 
 }
 
@@ -6535,7 +6535,7 @@ ple=allplad.indexOf(pled)
 
 outcardple=ple
 
-console.log("抽牌玩家:"+ple)
+///console.log("抽牌玩家:"+ple)
 
 if(gtcd==2){
 
@@ -6617,9 +6617,9 @@ return
 
 allcaneat=allcaneat.filter(Number)
 
-console.log(allcaneat)
+///console.log(allcaneat)
 
-console.log(plmgd)
+///console.log(plmgd)
 
 s=0
 
@@ -6845,7 +6845,7 @@ $(".muhandaury .d17").hide()
 
 socket.emit("outcard",JSON.stringify([roomId,filename]));
 
-console.log(filename)
+///console.log(filename)
 
 delete plmgd[mtd-allech[0]]
 
@@ -6876,7 +6876,7 @@ function bigCadr(){///台數統計
 
 bkmgd=JSON.parse(JSON.stringify(plmgd))///複製
 
-console.log(pled)
+///console.log(pled)
 
 yk0=0///目前台數
 
@@ -6985,7 +6985,7 @@ break
 
 }
 
-console.log(biword,nuword)
+///console.log(biword,nuword)
 
 if(biword+nuword==17&&biword>0){
 
