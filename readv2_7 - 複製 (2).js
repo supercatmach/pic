@@ -258,7 +258,12 @@ function isValidBase64(str) {
 }
 ////////////////////////////////////////////
 const serverList = [
-  "https://supermaghi.vercel.app"
+  "https://mj-sp1.up.railway.app",
+  "https://mj-sp2.up.railway.app",
+  "https://mj-sp3.up.railway.app",
+  "https://mj-sp4.up.railway.app",
+  "https://mj-sp5.up.railway.app",
+  "https://mj-sp6.up.railway.app"
 ];
 
 ///  "https://mj-5x4w.onrender.com",
