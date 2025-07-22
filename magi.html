@@ -5225,8 +5225,6 @@ if(epgtw=="gun"&&card[0]!="X"&&card[1]=="X"){
 
 ephchick=0
 
-gunwin=1///搶槓
-
 outcardple=ple
 
 $(".gun"+ple).show()
@@ -5234,22 +5232,6 @@ $(".gun"+ple).show()
 $("."+pldname[ple]+" .e"+((Number(card[0])+1)*4)).show().animate({top:"0px",left:"0px"},200);
 
 $("."+pldname[ple]+" .e"+((Number(card[0])+1)*4)+" .c1").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/mach/'+card[3]+'.png" style="width:60px;height:80px;">')
-
-if(ple==0){
-
-delete plmgd[plmgd.indexOf(Number(card[3]))]
-
-plmgd=plmgd.filter(Number)
-
-sorcard()
-
-socket.emit("needgetcardgun",JSON.stringify([roomId,allplad[ple]]));
-
-socket.emit("epghpk",JSON.stringify([roomId,0]));
-
-///socket.emit("gunget",JSON.stringify([roomId]));
-
-}
 
 if(ple!=0){
 
@@ -5297,6 +5279,10 @@ caneph[5]=[Number(card[3])]
 
 socket.emit("epghpk",JSON.stringify([roomId,3]));
 
+gunwin=1///搶槓
+
+nogunwin=0///槓上開花
+
 if(lbmgd==1){
 
 socket.emit("mywin",JSON.stringify([roomId,plmgd,lbmgd,flmgd,etmgd]));
@@ -5329,8 +5315,23 @@ socket.emit("needgetcardgun",JSON.stringify([roomId,allplad[ple]]));
 
 socket.emit("epghpk",JSON.stringify([roomId,0]));
 
-}
+}///if(ple!=0){
 
+if(ple==0){
+
+delete plmgd[plmgd.indexOf(Number(card[3]))]
+
+plmgd=plmgd.filter(Number)
+
+sorcard()
+
+socket.emit("needgetcardgun",JSON.stringify([roomId,allplad[ple]]));
+
+socket.emit("epghpk",JSON.stringify([roomId,0]));
+
+///socket.emit("gunget",JSON.stringify([roomId]));
+
+}
 
 return
 
