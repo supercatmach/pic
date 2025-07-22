@@ -18,6 +18,8 @@ stopCountdown()
 
 $(".spinner-wrapper").hide()
 
+$(".spinner-message").hide()
+
 $(".stanbylondingshap100").stop();
 
 $(".stanbylondingshap100").animate({width:'100%'},1000);
