@@ -260,9 +260,15 @@ function isValidBase64(str) {
 }
 ////////////////////////////////////////////
 const serverList = [
-"https://mgserver.fly.dev"
+"https://mj-sp1.up.railway.app",
+"https://mj-sp2.up.railway.app",
+"https://mj-sp3.up.railway.app",
+"https://mj-sp4.up.railway.app",
+"https://mj-sp5.up.railway.app",
+"https://mj-sp6.up.railway.app"
+
 ];
-///  "https://mj-sp3.up.railway.app",
+///  "https://mgserver.fly.dev"
 ///  "https://mj-sp4.up.railway.app",
 ///  "https://mj-sp5.up.railway.app",
 ///  "https://mj-sp6.up.railway.app"
