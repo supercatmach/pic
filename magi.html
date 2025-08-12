@@ -3271,7 +3271,15 @@ break
 
 }
 
+if(ephchickbk==0){
+
 ephchick=0
+
+ephchickbk=0
+
+}
+
+
 
 
 if(myturn==4){
@@ -4945,6 +4953,8 @@ ple=allplad.indexOf(pled)
 
 doethp=0
 
+
+
 if(epgtw=="tin"){
 
 $(".ti"+ple).show()
@@ -5618,6 +5628,8 @@ $('.'+epgh[i]).show()
 }
 
 ephchick=1
+
+ephchickbk=1
 
 }
 
@@ -6341,6 +6353,8 @@ epgh=["epgh1b","epgh2b","epgh3b","epgh4b","epgh5b","epgh6"]
 caneph=[[],[],[],[],[],[],[]]///可吃碰槓胡的牌
 
 ephchick=0///是否有吃碰槓胡的牌
+
+ephchickbk=0
 
 bkmgd=JSON.parse(JSON.stringify(plmgd))///複製
 
