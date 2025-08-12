@@ -3253,9 +3253,19 @@ myturn=myturnbk
 
 $(".ti0").hide()
 
+s=0
+
 for(let i=allech[0];i<18;i++){
 
 $("."+pldname[0]+" .d"+i+" div").css("filter","sepia(0%) brightness(100%)")
+
+s++
+
+if(s>=plmgd.length){
+
+break
+
+}
 
 }
 
@@ -3315,9 +3325,19 @@ myturn=(myturn==5)?myturnbk:5
 
 if(myturn!=5){
 
+s=0
+
 for(let i=allech[0];i<18;i++){
 
 $("."+pldname[0]+" .d"+i+" div").css("filter","sepia(0%) brightness(100%)")
+
+s++
+
+if(s>=plmgd.length){
+
+break
+
+}
 
 }
 
