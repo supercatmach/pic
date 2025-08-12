@@ -3241,7 +3241,11 @@ $("."+pldname[0]+" .d"+i+" div").css("filter","sepia(0%) brightness(100%)")
 
 $(".etpghword img").hide();
 
+if(doethp!=0){
+
 socket.emit("noepgh",JSON.stringify([roomId,doethp]));
+
+}
 
 ephchick=0
 
@@ -4905,7 +4909,7 @@ epgtw=JSON.parse(data)[2]///哪一種狀態
 
 ple=allplad.indexOf(pled)
 
-
+doethp=0
 
 if(epgtw=="tin"){
 
@@ -6525,6 +6529,8 @@ socket.off("getnewcard2");
 socket.on("getnewcard2", (ples) => {
 
 $(".outshowcad div").hide()
+
+doethp=0
 
 cantakenb++
 
