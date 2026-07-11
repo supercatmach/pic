@@ -1345,7 +1345,7 @@ $(".pler2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/wa
 $(".pler3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv3r.png">').show()
 
 
-$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv0c.png">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv0c.png?v=1">')
 
 $(".playerpicup").hide()
 
@@ -1369,7 +1369,7 @@ arrowL.addEventListener("click",function () {
 
 pledpic=(pledpic-1>-1)?pledpic-1:plerinfor.length-1
 
-$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
 plerK[0]=plerinfor[pledpic].pic
 
@@ -1424,7 +1424,7 @@ arrowR.addEventListener("click",function () {
 
 pledpic=(pledpic+1<plerinfor.length)?pledpic+1:0
 
-$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
 plerK[0]=plerinfor[pledpic].pic
 
