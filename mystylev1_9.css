@@ -220,7 +220,7 @@ width:0px;
 height:110px;
 background-image: url('backg/londing100.png');
 }
-.tincode,.stanbylonding{
+.tincode{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -230,6 +230,16 @@ background-image: url('backg/londing100.png');
   overflow: hidden;
   display: none;
 }
+
+.stanbylonding{
+  width: 1800px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform-origin: top left;
+}
+
 .playlonding{
   position: absolute;
   top: 50%;
