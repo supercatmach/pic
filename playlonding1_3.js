@@ -3,8 +3,6 @@
   
   bgImg.onload = () => {
 
-$(".adown,.scaler,.stanbylonding").show();
-
 const CDN = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/";
 
 const imageList = {
