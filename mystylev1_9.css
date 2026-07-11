@@ -230,6 +230,15 @@ background-image: url('backg/londing100.png');
   overflow: hidden;
   display: none;
 }
+.playlonding{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1800px;
+  height: 900px;
+  overflow: hidden;
+}
 .tincode1,.tincode2,.tincode3,.tincode4{
 display:none;
 }
