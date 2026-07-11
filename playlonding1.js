@@ -4,6 +4,27 @@
   bgImg.onload = () => {
 $(".stanbylonding").show();
 
+  const designWidth = 1800;
+  const designHeight = 900;
+  const stanbylonding = document.querySelector(".stanbylonding");
+
+  const clientWidth = document.documentElement.clientWidth;
+  const clientHeight = document.documentElement.clientHeight;
+
+  const scaleX = clientWidth / designWidth;
+  const scaleY = clientHeight / designHeight;
+  const scale = Math.min(scaleX, scaleY);
+
+  const offsetX = (clientWidth - designWidth * scale) / 2; 
+  const offsetY = (clientHeight - designHeight * scale) / 2; 
+
+  stanbylonding.style.transformOrigin = "top left";
+  stanbylonding.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`; // ✅ 修正 transform
+}
+
+window.addEventListener("DOMContentLoaded", scaleContent);
+window.addEventListener("resize", scaleContent);
+
   };
 
 const CDN = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/";
