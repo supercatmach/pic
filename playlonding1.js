@@ -3,6 +3,7 @@
   
   bgImg.onload = () => {
 
+$(".adown").show();
 $(".scaler").show();
 
 $(".stanbylonding").show();
