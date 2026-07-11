@@ -1,9 +1,4 @@
-﻿  const bgImg = new Image();
-  bgImg.src = 'https://cdn.jsdelivr.net/gh/supercatmach/pic@main/backg/endshure.jpg';
-  
-  bgImg.onload = () => {
-
-const CDN = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/";
+﻿const CDN = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/";
 
 const imageList = {
 
