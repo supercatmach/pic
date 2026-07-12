@@ -1,0 +1,4 @@
+按住 Shift
+點滑鼠右鍵
+在此處開啟 PowerShell 視窗
+Get-ChildItem -Name | ForEach-Object { '"' + $_ + '",' }
