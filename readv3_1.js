@@ -1345,7 +1345,7 @@ $(".pler2").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/wa
 $(".pler3").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/watse/cv3r.png">').show()
 
 
-$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv0c.png?v=1">')
+$(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv0.png?v=1">')
 
 $(".playerpicup").hide()
 
