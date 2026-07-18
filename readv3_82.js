@@ -418,9 +418,7 @@ setTimeout('countie()',10000)
 
 function countie(){
 
-
-plerK=["0c","1l","2c","3r"]///玩家
-
+plerK=["0"]///玩家
 
 egmgd=[40000,40000,40000,40000]///四個玩家的積分
 
@@ -800,74 +798,31 @@ clocad[32]=[]
 clocad[33]=[]
 clocad[34]=[]
 
+plerK=["0"]
 plerK[0]=JSON.parse(localStorage.getItem("charich"));
 ////最後一次玩的人物
 
 
-if(plerK[0]=="8l"){
+while(plerK.length<4){
 
-plerK[3]="7r"
+let n = Math.floor(Math.random() * plerinfor.length);///隨機配對
 
-plerK[2]="2c"
+if(n!=0&&plerK.indexOf(n-1)==-1){
 
-plerK[1]="5l"
-
-}
-
-if(plerK[0]=="7l"){
-
-plerK[3]="3r"
-
-plerK[2]="0c"
-
-plerK[1]="8l"
+plerK.push(n-1)
 
 }
 
-if(plerK[0]=="6l"){
-
-plerK[3]="5r"
-
-plerK[2]="0c"
-
-plerK[1]="3l"
-
 }
 
-if(plerK[0]=="5l"){
+console.log(plerK)
 
-plerK[3]="6r"
+plerK[0]=plerK[0]+"c"
+plerK[1]=plerK[1]+"l"
+plerK[2]=plerK[2]+"c"
+plerK[3]=plerK[3]+"r"
 
-plerK[2]="0c"
-
-plerK[1]="7l"
-
-
-}
-if(plerK[0]=="3r"){
-
-plerK[3]="5r"
-
-plerK[1]="2l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="2c"){
-
-plerK[1]="6l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="1l"){
-
-plerK[1]="5l"
-
-}
-
+console.log(plerK)
 
 donlow=''
 
@@ -1254,8 +1209,7 @@ localStorage.setItem("lastcard",JSON.stringify(cpds));////打出的牌
 
 /////////////////////////////////////////////////
 
-plerK=["0c","1l","2c","3r"]///玩家
-
+plerK=["0"]///玩家
 
 pledpic=1
 
@@ -1324,7 +1278,7 @@ localStorage.setItem('uploadedImage', JSON.stringify(url))
 
 function bkindex(){
 
-plerK=["0c","1l","2c","3r"]///玩家
+plerK=["0"]///玩家
 
 nobackch=1///無返回主畫面
 
@@ -1497,70 +1451,26 @@ function londing(){
 
 localStorage.setItem("charich",JSON.stringify(plerK[0]));
 
-if(plerK[0]=="8l"){
+while(plerK.length<4){
 
-plerK[3]="7r"
+let n = Math.floor(Math.random() * plerinfor.length);///隨機配對
 
-plerK[2]="2c"
+if(n!=0&&plerK.indexOf(n-1)==-1){
 
-plerK[1]="5l"
-
-}
-
-if(plerK[0]=="7l"){
-
-plerK[3]="3r"
-
-plerK[2]="0c"
-
-plerK[1]="8l"
+plerK.push(n-1)
 
 }
 
-if(plerK[0]=="6l"){
-
-plerK[3]="5r"
-
-plerK[2]="0c"
-
-plerK[1]="3l"
-
 }
 
-if(plerK[0]=="5l"){
+console.log(plerK)
 
-plerK[3]="6r"
+plerK[0]=plerK[0]+"c"
+plerK[1]=plerK[1]+"l"
+plerK[2]=plerK[2]+"c"
+plerK[3]=plerK[3]+"r"
 
-plerK[2]="0c"
-
-plerK[1]="7l"
-
-
-}
-if(plerK[0]=="3r"){
-
-plerK[3]="5r"
-
-plerK[1]="2l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="2c"){
-
-plerK[1]="6l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="1l"){
-
-plerK[1]="5l"
-
-}
-
+console.log(plerK)
 
 donlow=''
 
