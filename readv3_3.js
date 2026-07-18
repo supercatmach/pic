@@ -815,6 +815,11 @@ plerK.push(n)
 
 }
 
+plerK=plerK[0]+"c"
+plerK=plerK[1]+"l"
+plerK=plerK[2]+"c"
+plerK=plerK[3]+"r"
+
 donlow=''
 
 for(let i=1;i<4;i++){
@@ -1454,6 +1459,10 @@ plerK.push(n)
 
 }
 
+plerK=plerK[0]+"c"
+plerK=plerK[1]+"l"
+plerK=plerK[2]+"c"
+plerK=plerK[3]+"r"
 
 donlow=''
 
