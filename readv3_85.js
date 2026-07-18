@@ -1328,7 +1328,7 @@ pledpic=(pledpic-1>-1)?pledpic-1:plerinfor.length-1
 
 $(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
-plerK.push(plerinfor[pledpic].pic)
+plerK[0]=plerinfor[pledpic].pic
 
 plerK[0]=(plerK[0]=="-1")?"-1":plerK[0]
 
@@ -1383,7 +1383,7 @@ pledpic=(pledpic+1<plerinfor.length)?pledpic+1:0
 
 $(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
-plerK.push(plerinfor[pledpic].pic)
+plerK[0]=plerinfor[pledpic].pic
 
 plerK[0]=(plerK[0]=="-1")?"-1":plerK[0]
 
@@ -1448,6 +1448,7 @@ $("#bk90").show()
 
 
 function londing(){
+
 
 localStorage.setItem("charich",JSON.stringify(plerK[0]));
 
