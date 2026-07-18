@@ -418,7 +418,7 @@ setTimeout('countie()',10000)
 
 function countie(){
 
-plerK=["0c","1l","2c","3r"]///玩家
+plerK=[]///玩家
 
 egmgd=[40000,40000,40000,40000]///四個玩家的積分
 
@@ -798,72 +798,20 @@ clocad[32]=[]
 clocad[33]=[]
 clocad[34]=[]
 
-
-plerK[0]=JSON.parse(localStorage.getItem("charich"));
+plerK=[]
+plerK.push(JSON.parse(localStorage.getItem("charich")));
 ////最後一次玩的人物
 
 
-if(plerK[0]=="8l"){
+while(plerK.length<4){
 
-plerK[3]="7r"
+let n = Math.floor(Math.random() * plerinfor.length);///隨機配對
 
-plerK[2]="2c"
+if(n!=0&&plerK.indexOf(n-1)==-1){
 
-plerK[1]="5l"
-
-}
-
-if(plerK[0]=="7l"){
-
-plerK[3]="3r"
-
-plerK[2]="0c"
-
-plerK[1]="8l"
+plerK.push(n)
 
 }
-
-if(plerK[0]=="6l"){
-
-plerK[3]="5r"
-
-plerK[2]="0c"
-
-plerK[1]="3l"
-
-}
-
-if(plerK[0]=="5l"){
-
-plerK[3]="6r"
-
-plerK[2]="0c"
-
-plerK[1]="7l"
-
-
-}
-if(plerK[0]=="3r"){
-
-plerK[3]="5r"
-
-plerK[1]="2l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="2c"){
-
-plerK[1]="6l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="1l"){
-
-plerK[1]="5l"
 
 }
 
@@ -1252,7 +1200,7 @@ localStorage.setItem("lastcard",JSON.stringify(cpds));////打出的牌
 
 /////////////////////////////////////////////////
 
-plerK=["0c","1l","2c","3r"]///玩家
+plerK=[]///玩家
 
 pledpic=1
 
@@ -1321,7 +1269,7 @@ localStorage.setItem('uploadedImage', JSON.stringify(url))
 
 function bkindex(){
 
-plerK=["0c","1l","2c","3r"]///玩家
+plerK=[]///玩家
 
 nobackch=1///無返回主畫面
 
@@ -1371,7 +1319,7 @@ pledpic=(pledpic-1>-1)?pledpic-1:plerinfor.length-1
 
 $(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
-plerK[0]=plerinfor[pledpic].pic
+plerK.push(plerinfor[pledpic].pic)
 
 plerK[0]=(plerK[0]=="-1")?"-1":plerK[0]
 
@@ -1416,7 +1364,7 @@ $(".g6").html("介紹:"+plerinfor[pledpic].inf)
 
 },false);
 
-sessionStorage.setItem("charich", "0c");
+sessionStorage.setItem("charich", "0");
 
 arrowR = document.querySelector(".arrowR");
 
@@ -1426,7 +1374,7 @@ pledpic=(pledpic+1<plerinfor.length)?pledpic+1:0
 
 $(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
-plerK[0]=plerinfor[pledpic].pic
+plerK.push(plerinfor[pledpic].pic)
 
 plerK[0]=(plerK[0]=="-1")?"-1":plerK[0]
 
@@ -1494,69 +1442,18 @@ function londing(){
 
 localStorage.setItem("charich",JSON.stringify(plerK[0]));
 
-if(plerK[0]=="8l"){
+while(plerK.length<4){
 
-plerK[3]="7r"
+let n = Math.floor(Math.random() * plerinfor.length);///隨機配對
 
-plerK[2]="2c"
+if(n!=0&&plerK.indexOf(n-1)==-1){
 
-plerK[1]="5l"
-
-}
-
-if(plerK[0]=="7l"){
-
-plerK[3]="3r"
-
-plerK[2]="0c"
-
-plerK[1]="8l"
+plerK.push(n)
 
 }
 
-if(plerK[0]=="6l"){
-
-plerK[3]="5r"
-
-plerK[2]="0c"
-
-plerK[1]="3l"
-
 }
 
-if(plerK[0]=="5l"){
-
-plerK[3]="6r"
-
-plerK[2]="0c"
-
-plerK[1]="7l"
-
-
-}
-if(plerK[0]=="3r"){
-
-plerK[3]="5r"
-
-plerK[1]="2l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="2c"){
-
-plerK[1]="6l"
-
-plerK[2]="0c"
-
-}
-
-if(plerK[0]=="1l"){
-
-plerK[1]="5l"
-
-}
 
 donlow=''
 
