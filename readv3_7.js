@@ -817,10 +817,10 @@ plerK.push(n-1)
 
 console.log(plerK)
 
-plerK[0]=plerK[0]+"c"
-plerK[1]=plerK[1]+"l"
-plerK[2]=plerK[2]+"c"
-plerK[3]=plerK[3]+"r"
+///plerK[0]=plerK[0]+"c"
+///plerK[1]=plerK[1]+"l"
+///plerK[2]=plerK[2]+"c"
+///plerK[3]=plerK[3]+"r"
 
 console.log(plerK)
 
@@ -1465,10 +1465,10 @@ plerK.push(n-1)
 
 console.log(plerK)
 
-plerK[0]=plerK[0]+"c"
-plerK[1]=plerK[1]+"l"
-plerK[2]=plerK[2]+"c"
-plerK[3]=plerK[3]+"r"
+///plerK[0]=plerK[0]+"c"
+///plerK[1]=plerK[1]+"l"
+///plerK[2]=plerK[2]+"c"
+///plerK[3]=plerK[3]+"r"
 
 console.log(plerK)
 
