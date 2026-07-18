@@ -807,7 +807,7 @@ while(plerK.length<4){
 
 let n = Math.floor(Math.random() * plerinfor.length);///隨機配對
 
-if(n!=0&&plerK.indexOf(n-1)==-1){
+if(n!=0&&plerK.indexOf(n-1)==-1&&plerK.indexOf((n-1).toString())==-1){
 
 plerK.push(n-1)
 
@@ -1455,7 +1455,7 @@ while(plerK.length<4){
 
 let n = Math.floor(Math.random() * plerinfor.length);///隨機配對
 
-if(n!=0&&plerK.indexOf(n-1)==-1){
+if(n!=0&&plerK.indexOf(n-1)==-1&&plerK.indexOf((n-1).toString())==-1){
 
 plerK.push(n-1)
 
