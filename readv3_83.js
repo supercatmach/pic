@@ -418,7 +418,7 @@ setTimeout('countie()',10000)
 
 function countie(){
 
-plerK=["0"]///玩家
+plerK=[]///玩家
 
 egmgd=[40000,40000,40000,40000]///四個玩家的積分
 
@@ -798,7 +798,7 @@ clocad[32]=[]
 clocad[33]=[]
 clocad[34]=[]
 
-plerK=["0"]
+
 plerK[0]=JSON.parse(localStorage.getItem("charich"));
 ////最後一次玩的人物
 
@@ -1209,7 +1209,7 @@ localStorage.setItem("lastcard",JSON.stringify(cpds));////打出的牌
 
 /////////////////////////////////////////////////
 
-plerK=["0"]///玩家
+plerK=[]///玩家
 
 pledpic=1
 
@@ -1278,7 +1278,7 @@ localStorage.setItem('uploadedImage', JSON.stringify(url))
 
 function bkindex(){
 
-plerK=["0"]///玩家
+plerK=[]///玩家
 
 nobackch=1///無返回主畫面
 
@@ -1328,7 +1328,7 @@ pledpic=(pledpic-1>-1)?pledpic-1:plerinfor.length-1
 
 $(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
-plerK[0]=plerinfor[pledpic].pic
+plerK.push(plerinfor[pledpic].pic)
 
 plerK[0]=(plerK[0]=="-1")?"-1":plerK[0]
 
@@ -1383,7 +1383,7 @@ pledpic=(pledpic+1<plerinfor.length)?pledpic+1:0
 
 $(".playerpic").html('<img src="https://cdn.jsdelivr.net/gh/supercatmach/pic@main/stanbypled/cv'+plerinfor[pledpic].pic+'.png?v=1">')
 
-plerK[0]=plerinfor[pledpic].pic
+plerK.push(plerinfor[pledpic].pic)
 
 plerK[0]=(plerK[0]=="-1")?"-1":plerK[0]
 
