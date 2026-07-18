@@ -815,10 +815,10 @@ plerK.push(n)
 
 }
 
-plerK=plerK[0]+"c"
-plerK=plerK[1]+"l"
-plerK=plerK[2]+"c"
-plerK=plerK[3]+"r"
+plerK[0]=plerK[0]+"c"
+plerK[1]=plerK[1]+"l"
+plerK[2]=plerK[2]+"c"
+plerK[3]=plerK[3]+"r"
 
 donlow=''
 
@@ -1459,10 +1459,10 @@ plerK.push(n)
 
 }
 
-plerK=plerK[0]+"c"
-plerK=plerK[1]+"l"
-plerK=plerK[2]+"c"
-plerK=plerK[3]+"r"
+plerK[0]=plerK[0]+"c"
+plerK[1]=plerK[1]+"l"
+plerK[2]=plerK[2]+"c"
+plerK[3]=plerK[3]+"r"
 
 donlow=''
 
