@@ -5410,6 +5410,13 @@ rcmgd[pledbk].push(otmgd[pledbk].length-1)
 
 sortShowCad(pled)
 
+v41.pause();
+
+v41.currentTime = 0
+
+v41.play();
+
+
 $(".gun"+pled).show()
 
 
@@ -5570,6 +5577,13 @@ etnum[pled]++
 sortShowCad(pled)
 
 epgmow=1///吃碰槓的場合
+
+v41.pause();
+
+v41.currentTime = 0
+
+v41.play();
+
 
 $("."+pldname[pledbk]+" div .o"+otmgd[pledbk].length+" div").css("filter","opacity(0.3)")
 
@@ -6053,15 +6067,11 @@ return
 
 ppyn = document.querySelector(".epgh2");
 
-ppyn.addEventListener("click",function (event) {resolve("p");event.stopPropagation();
+ppyn.addEventListener("click",function (event) {
 
-v41.pause();
+resolve("p");
 
-v41.currentTime = 0
-
-v41.play();
-
-
+event.stopPropagation();
 
 return;
 
@@ -6075,12 +6085,6 @@ ggyn.addEventListener("click",function (event) {
 resolve("g")
 
 event.stopPropagation()
-
-v41.pause();
-
-v41.currentTime = 0
-
-v41.play();
 
 
 return
