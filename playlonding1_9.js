@@ -1,5 +1,15 @@
 ﻿const CDN = "https://cdn.jsdelivr.net/gh/supercatmach/pic@main/";
 
+
+v41= new Audio("https://cdn.jsdelivr.net/gh/supercatmach/pic@main/music/v41.wav")
+v41.preload = "auto"
+
+
+  const bgm = new Audio("https://cdn.jsdelivr.net/gh/supercatmach/pic@main/music/party-game-bgm-vol2-242467.mp3");
+  bgm.loop = true;
+  bgm.volume = 0.3; // 初始音量
+
+
 const imageList = {
 
     backg: [
@@ -798,6 +808,9 @@ loadList.forEach(url => {
 
 
                 $(".pledstanby").show();
+
+  bgm.play();
+
 
 
                 $(
