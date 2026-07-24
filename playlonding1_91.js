@@ -406,7 +406,6 @@ const imageList = {
 "mtkv1c.png",
 "mtkv1l.png",
 "mtkv1r.png",
-"mtkv2.png",
 "mtkv2c.png",
 "mtkv2l.png",
 "mtkv3c.png",
