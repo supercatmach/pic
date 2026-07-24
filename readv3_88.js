@@ -3467,7 +3467,7 @@ pled=i
 
 wincad=cpd///胡的牌
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -3587,7 +3587,7 @@ losgun=-1///放槍
 
 wincad=Math.ceil(n/4)///胡的牌
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -3901,7 +3901,7 @@ wincad=cpt///胡的牌
 
 gunwin=1///搶槓胡
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -3961,7 +3961,7 @@ losgun=i///放槍
 
 wincad=cpd///胡的牌
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -3985,7 +3985,7 @@ losgun=null///放槍
 
 wincad=cpd///胡的牌
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -4276,11 +4276,11 @@ losgun=pledbk///放槍
 
 wincad=cpd///胡的牌
 
-v41.pause();
+
 
 v41.currentTime = 0
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -4407,7 +4407,7 @@ atkCad()
 
 nogunwin=1///槓上開花
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -4632,7 +4632,7 @@ smokeshow(pled)
 
 if(nobackch==0){
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -5055,7 +5055,7 @@ smokeshow(pled)
 
 if(nobackch==0){
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -5410,7 +5410,7 @@ rcmgd[pledbk].push(otmgd[pledbk].length-1)
 
 sortShowCad(pled)
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -5494,7 +5494,7 @@ wincad=cpd///胡的牌
 
 gunwin=1///搶槓胡
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -5578,7 +5578,7 @@ sortShowCad(pled)
 
 epgmow=1///吃碰槓的場合
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -5686,7 +5686,7 @@ sortShowCad(pled)
 
 epgmow=1///吃碰槓的場合
 
-v41.pause();
+
 
 v41.currentTime = 0
 
@@ -6479,7 +6479,7 @@ losgun=-1///放槍
 
 wincad=otc///胡的牌
 
-v41.pause();
+
 
 v41.currentTime = 0
 
