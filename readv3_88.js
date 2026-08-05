@@ -3223,7 +3223,11 @@ whtai.push("碰碰胡")
 
 }
 
-if(dubnum==0&&crdeye==1&&manum+eemgd[pled]==5&&flocd[pled].length==0&&biword===0&&mytsale==0&&lomgd[pled].length>1){///無對子.聽雙頭.非自摸.無大字.無花牌
+lomgdsf=JSON.parse(JSON.stringify(lomgd[pled]))///複製
+
+
+
+if(dubnum==0&&crdeye==1&&manum+eemgd[pled]==5&&flocd[pled].length==0&&biword===0&&mytsale==0&&lomgd[pled].length==2&&lomgd[pled][0]+3==lomgd[pled][1]&&Math.floor(lomgd[pled][0]/9)==Math.floor(lomgd[pled][1]/9)){///無對子.聽雙頭.非自摸.無大字.無花牌
 
 yk0+=2
 
